@@ -1,0 +1,33 @@
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 0 none;
+  cursor: pointer;
+  &[class~=btn-primary] {
+    background-color: #00a6ff;
+    color: #ffffff;
+  }
+  &[class~=btn-success] {
+    background-color: #1cbd00;
+    color: #ffffff;
+  }
+  &[class~=btn-warning] {
+    background-color: #f6ab00;
+    color: #ffffff;
+  }
+  &[class~=btn-danger] {
+    background-color: #d90000;
+    color: #ffffff;
+  }
+  &[class~=btn-muted] {
+    background-color: #e1e1e1;
+    color: #707070;
+  }
+  &[class~=btn-disabled] {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  &[class~=btn-block] {
+    width: 100%;
+  }
+}
