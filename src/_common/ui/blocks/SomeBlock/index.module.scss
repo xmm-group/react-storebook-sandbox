@@ -1,7 +1,15 @@
 .someBlock {
   width: 500px;
   height: 100px;
-  background-color: #e8e8e8;
-  border-radius: 5px;
-  border: 0 none;
+  border-radius: 10px;
+  border: solid 1px #dedede;
+  color: #818181;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  [class~=buttons] {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
 }

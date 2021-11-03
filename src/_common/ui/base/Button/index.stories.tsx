@@ -1,13 +1,16 @@
+/* eslint-disable react/jsx-props-no-spreading,react/destructuring-assignment */
 import React from 'react';
-
-import Button from '.';
+import { Meta, Story } from '@storybook/react';
+import Button, { ButtonPropsTypes } from '.';
 
 export default {
   title: 'Base components/Button',
   component: Button,
-};
+} as Meta;
 
-const Template = (args) => <Button {...args} />;
+const Template: Story<ButtonPropsTypes> = (args) => (
+  <Button {...args}>{args.children}</Button>
+);
 
 export const Default = Template.bind({});
 Default.args = {
