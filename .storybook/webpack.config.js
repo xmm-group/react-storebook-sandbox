@@ -6,8 +6,8 @@ module.exports = ({ config }) => {
     "node_modules",
   ]
   config.resolve.alias = {
-    _common: path.resolve(__dirname, '..', 'src', '_common'),
-    layouts: path.resolve(__dirname, '..', 'src', 'layouts'),
+    "common": path.resolve(__dirname, '..', 'src', '_common'),
+    "themes": path.resolve(__dirname, '..', 'src', 'themes'),
   }
   return config
 }
