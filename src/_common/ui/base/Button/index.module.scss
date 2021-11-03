@@ -4,19 +4,19 @@
   border: 0 none;
   cursor: pointer;
   &[class~=btn-primary] {
-    background-color: #00a6ff;
+    background-color: var(--tg-color-primary);
     color: #ffffff;
   }
   &[class~=btn-success] {
-    background-color: #1cbd00;
+    background-color: var(--tg-color-success);
     color: #ffffff;
   }
   &[class~=btn-warning] {
-    background-color: #f6ab00;
+    background-color: var(--tg-color-warning);
     color: #ffffff;
   }
   &[class~=btn-danger] {
-    background-color: #d90000;
+    background-color: var(--tg-color-danger);
     color: #ffffff;
   }
   &[class~=btn-muted] {

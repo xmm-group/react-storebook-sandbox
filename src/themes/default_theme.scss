@@ -1,0 +1,17 @@
+@import './root';
+
+:root {
+  /* Colors */
+  --tg-color-primary: #FF004C;
+  --tg-color-primary-50: #FFE5ED;
+  --tg-color-primary-100: #FFCCDB;
+  --tg-color-primary-200: #FF99B7;
+  --tg-color-primary-300: #FF6694;
+  --tg-color-primary-400: #FF3370;
+  --tg-color-primary-500: var(--tg-color-primary);
+  --tg-color-primary-600: #CC003D;
+  --tg-color-primary-700: #99002E;
+  --tg-color-primary-800: #66001E;
+  --tg-color-primary-900: #33000F;
+
+}
